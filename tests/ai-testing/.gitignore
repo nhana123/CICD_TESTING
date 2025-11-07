@@ -1,0 +1,7 @@
+# AI Testing with OpenAI API
+*.env
+node_modules/
+output/
+reports/
+*.log
+

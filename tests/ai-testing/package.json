@@ -1,0 +1,17 @@
+{
+  "name": "ai-testing",
+  "version": "1.0.0",
+  "description": "AI-powered testing using Hugging Face API",
+  "scripts": {
+    "test": "codeceptjs run",
+    "test:verbose": "codeceptjs run --verbose"
+  },
+  "dependencies": {
+    "codeceptjs": "^3.7.5",
+    "openai": "^4.20.0",
+    "dotenv": "^16.3.1"
+  },
+  "author": "Date Time Checker Team",
+  "license": "MIT"
+}
+
