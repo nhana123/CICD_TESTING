@@ -55,4 +55,11 @@ class DateTimeCheckerApplicationTests {
         String result = dateTimeService.validateDate("", "6", "2025");
         assertTrue(result.contains("trống"));
     }
+
+    @Test
+    @DisplayName("🚨 FORCED FAILURE FOR CI/CD TESTING")
+    void testForcedFailure() {
+        // This test is intentionally designed to fail
+        fail("🚨 INTENTIONAL FAILURE: Testing CI/CD pipeline failure handling");
+    }
 }
